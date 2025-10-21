@@ -82,3 +82,11 @@ else:
 name = input("성을 영어로 입력해주세요:")
 name_lower = name.lower()
 print(name_lower.rjust(10))
+
+#24
+price_str = input("가격들을 세미콜론으로 구분해 입력하세요:")
+price_list = price_str.split(';')
+price = list(map(int, price_list))
+price.sort(reverse = True)
+for prices in price:
+    print(str(prices).rjust(9))
