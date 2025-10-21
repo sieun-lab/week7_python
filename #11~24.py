@@ -44,3 +44,8 @@ number_list.remove(min_value)
 number_list.remove(max_value)
 total = sum(number_list)
 print("최저값과 최고값을 제외한 나머지 값들의 합:", total)
+
+#17
+a = [10, 20, 30, 40, 30, 20, 10]
+a = [x for x in a if x != 20]
+print("20을 모두 제거한 리스트:")
