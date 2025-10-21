@@ -69,3 +69,11 @@ print(two)
 text = input()
 modified_text = text.replace("Hello","Hi")
 print(modified_text)
+
+#22
+chars = input("문자 4개를 연속해서 입력하세요:")
+if len(char) != 4:
+    print("문자를 정확히 4개 입력해주세요.:")
+else:
+    result = '/'.join(chars)
+    print(result)
