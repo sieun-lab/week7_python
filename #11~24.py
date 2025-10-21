@@ -57,3 +57,10 @@ print(number)
 #19
 num = [x for x in range(1, 21) if x % 2 ==1]
 print(num)
+
+#20
+start, end = map(int, input("정수 2개를 입력하세요:").split())
+two = [2 ** i for i in range (start, end + 1)]
+del two[1]
+del two[-2]
+print(two)
