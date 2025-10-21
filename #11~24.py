@@ -64,3 +64,8 @@ two = [2 ** i for i in range (start, end + 1)]
 del two[1]
 del two[-2]
 print(two)
+
+#21
+text = input()
+modified_text = text.replace("Hello","Hi")
+print(modified_text)
