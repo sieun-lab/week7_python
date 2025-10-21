@@ -77,3 +77,8 @@ if len(char) != 4:
 else:
     result = '/'.join(chars)
     print(result)
+
+#23
+name = input("성을 영어로 입력해주세요:")
+name_lower = name.lower()
+print(name_lower.rjust(10))
