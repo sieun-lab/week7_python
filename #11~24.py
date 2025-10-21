@@ -53,3 +53,7 @@ print("20을 모두 제거한 리스트:")
 #18
 number = [x for x in range(1, 6)]
 print(number)
+
+#19
+num = [x for x in range(1, 21) if x % 2 ==1]
+print(num)
